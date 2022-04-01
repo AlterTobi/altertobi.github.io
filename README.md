@@ -1,4 +1,4 @@
 # altertobi.github.io
-personal githup pages
+personal github pages
 
 just testing
