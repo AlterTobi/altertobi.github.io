@@ -1,6 +1,6 @@
 ## My Projects
 
-Here is a list of project I'm currently working on.
+Here is a list of projects I'm currently working on.
 
 - [Wayfarer Extension Scripts](/Wayfarer-Extension-Scripts/)
 
