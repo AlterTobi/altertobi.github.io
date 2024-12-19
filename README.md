@@ -1,6 +1,7 @@
 ---
 permalink: /readme.html
 robots: "noindex"
+sitemap: false
 ---
 
 # altertobi.github.io
