@@ -1,5 +1,5 @@
 ---
-robots: "noindex"
+robots: "index"
 ---
 
 ## Welcome to GitHub Pages
