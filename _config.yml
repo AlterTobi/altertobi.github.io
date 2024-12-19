@@ -3,4 +3,3 @@ title: AlterTobi's homepage
 description: learning about github pages
 plugins:
   - jekyll-remote-theme
-  - jekyll-sitemap
