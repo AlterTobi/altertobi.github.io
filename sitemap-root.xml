@@ -9,7 +9,7 @@ robots: "noindex"
  <url>
      <loc>{{ site.url }}{{ page.url | escape }}</loc>
      <lastmod>{{ page.last_modified_at | default: page.date | date: "%Y-%m-%d" }}</lastmod>
-     <changefreq>weekly</changefreq>
+     <changefreq>yearly</changefreq>
      <priority>0.5</priority>
  </url>
  {% endunless %}
