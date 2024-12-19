@@ -1,13 +1,14 @@
 ---
 layout: null
 robots: "noindex"
+sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <sitemap>
-      <loc>https://username.github.io/Wayfarer-Extension-Scripts/sitemap.xml</loc>
+      <loc>https://altertobi.github.io/sitemap-root.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://altertobi.github.io/sitemap-root.xml</loc>
+      <loc>https://altertobi.github.io/Wayfarer-Extension-Scripts/sitemap.xml</loc>
    </sitemap>
 </sitemapindex>
