@@ -1,3 +1,5 @@
-theme: jekyll-theme-hacker
+remote_theme: pages-themes/hacker@v0.2.0
 title: AlterTobi's homepage
 description: learning about github pages
+plugins:
+  - jekyll-remote-theme
