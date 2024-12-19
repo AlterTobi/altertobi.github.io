@@ -2,6 +2,7 @@
 permalink: /robots.txt
 robots: noindex
 sitemap: false
+layout: null
 ---
 User-agent: *
 Allow: /
