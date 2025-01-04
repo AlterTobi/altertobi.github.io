@@ -3,5 +3,3 @@ permalink: /robots.txt
 ---
 User-agent: *
 Allow: /
-
-Sitemap: https://altertobi.github.io/sitemap.xml
