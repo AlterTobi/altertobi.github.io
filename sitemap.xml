@@ -8,10 +8,10 @@ permalink: /sitemap.xml
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://altertobi.github.io/sitemap-root.xml</loc>
-    <lastmod>2024-12-31</lastmod>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://altertobi.github.io/Wayfarer-Extension-Scripts/sitemap.xml</loc>
-    <lastmod>2025-01-04</lastmod>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
   </sitemap>
 </sitemapindex>
