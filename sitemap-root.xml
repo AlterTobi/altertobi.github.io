@@ -6,7 +6,7 @@ robots: "noindex"
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  {% for page in site.pages %}{% unless page.robots == "noindex" or page.url contains "/assets/" %}<url>
      <loc>{{ site.url }}{{ page.url | escape }}</loc>
-     <lastmod>{{ date: "%Y-%m-%d" }}</lastmod>
+     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
      <changefreq>yearly</changefreq>
      <priority>0.5</priority>
  </url>{% endunless %}{% endfor %}
