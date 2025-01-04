@@ -4,14 +4,10 @@ robots: "noindex"
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
- {% for page in site.pages %}
- {% unless page.robots == "noindex" or page.url contains "/assets/" %}
- <url>
+ {% for page in site.pages %}{% unless page.robots == "noindex" or page.url contains "/assets/" %}<url>
      <loc>{{ site.url }}{{ page.url | escape }}</loc>
      <lastmod>{{ page.last_modified_at | default: page.date | date: "%Y-%m-%d" }}</lastmod>
      <changefreq>yearly</changefreq>
      <priority>0.5</priority>
- </url>
- {% endunless %}
- {% endfor %}
+ </url>{% endunless %}{% endfor %}
 </urlset>
