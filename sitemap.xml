@@ -14,4 +14,8 @@ permalink: /sitemap.xml
     <loc>https://altertobi.github.io/Wayfarer-Extension-Scripts/sitemap.xml</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://altertobi.github.io/Recon-Helper-Scripts/sitemap.xml</loc>
+    <lastmod>2025-11-02</lastmod>
+  </sitemap>
 </sitemapindex>
